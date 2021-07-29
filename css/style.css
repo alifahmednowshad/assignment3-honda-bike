@@ -11,3 +11,12 @@ header{
 .grayScale{
         filter: grayscale(100%);
 }
+.bgOrange{
+    background-color: #E76F51;
+}
+.bgOrange:hover {
+    background-color: #db3f18;
+}
+.orange{
+    color: #E76F51;
+}
