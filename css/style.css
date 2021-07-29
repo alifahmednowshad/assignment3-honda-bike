@@ -5,6 +5,9 @@
 header{
     background-color: #264653;
 }
+.nav-container{
+    background-color: #264653;
+}
 .grayScale{
         filter: grayscale(100%);
 }
