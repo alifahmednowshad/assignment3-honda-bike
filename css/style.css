@@ -1,6 +1,3 @@
-body{
-    font-family: 'Poppins', sans-serif;
-}
 header{
     background-color: #264653;
 }
@@ -18,4 +15,12 @@ header{
 }
 .orange{
     color: #E76F51;
+}
+.honda-btn{
+    color: #E76F51;
+    border: 1px solid #E76F51; 
+}
+.honda-btn:hover {
+    color: white;
+    background-color: #E76F51;
 }
