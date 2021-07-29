@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- font awesome icon  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <!-- google font  --
+    <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 </head>
 <body>
@@ -30,21 +30,21 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto text-white mb-2 mb-lg-0">
                       <li class="nav-item me-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
                       </li>
                       <li class="nav-item me-3">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link text-white" href="#bike-feature">Shop</a>
                       </li> 
                       <li class="nav-item me-3">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link text-white" href="#news">News</a>
                       </li> 
                       <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link text-white" href="#contact">Contact</a>
                       </li> 
                       <li class="nav-item">
-                        <a class="btn bgOrange px-4 py-2 text-white" href="#" role="button">Login</a>
+                        <a class="btn bgOrange px-4 py-2 text-white" href="#login" role="button">Login</a>
                       </li> 
                     </ul>
                   </div>
@@ -52,8 +52,8 @@
             </nav>
         </div>
         <!-- hero area start  -->
-        <div class="container">
-            <div class="row d-flex align-items-center justify-content-between py-5">
+        <div id="home" class="container">
+            <div class="row d-flex align-items-center justify-content-between py-5 mb-5">
                 <div class="col-md-6 col-12 text-white py-5">
                     <p class="text-white-50"><small>The good news for Honda motorcycle users and lovers</small></p>
                     <h1 class="fw-bold fs-1">Honda CBR 300R</h1>
@@ -92,8 +92,8 @@
     <main>
         <!-- bike features section  -->
         <section>
-            <div class="container">
-                <div class="my-5 pt-4 text-center">
+            <div id="bike-feature" class="container my-5 py-5">
+                <div class="text-center mb-4">
                     <h1 class="fs-1 fw-bold">Fetured Bikes 2021</h1>
                     <p class="orange fw-bold p-0 m-0"><small>Best bike collection</small></p>
                     <div class="row justify-content-center">
@@ -104,7 +104,7 @@
                       <div class="col-5"></div>
                     </div>
                 </div>
-                <div class="row my-md-5 py-md-4 d-flex align-items-center justify-content-center">
+                <div class="row d-flex align-items-center justify-content-center">
                     <div class="col-lg-4 col-11">
                         <img src="images/feature-bike.jpg" class="img-fluid grayScale" alt="">
                     </div>
@@ -121,7 +121,7 @@
 
         <!-- news section start  -->
         <section>
-            <div class="container my-5 py-5">
+            <div id="news" class="container my-5 py-5">
                 <h1 class="fs-1 fw-bold text-center my-5">Latest News</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
@@ -161,7 +161,7 @@
 
         <!-- clients section start  -->
         <section>
-            <div class="container my-5 py-5">
+            <div id="contact" class="container my-5 py-5">
                 <h1 class="fs-1 fw-bold text-center mb-5">Happy <span class="orange">Clients says</span></h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col text-center py-3">
@@ -222,7 +222,7 @@
 
         <!-- questions section start  -->
         <section>
-          <div class="container py-5 my-5">
+          <div class="container">
             <h1 class="fs-1 fw-bold text-center mb-5">Frequently Asked <span class="orange">Questions</span></h1>
             <div class="row align-items-center justify-content-center">
               <div class="col-md-6 col-12 pe-md-5">
@@ -312,7 +312,7 @@
 
         <!-- Login section  -->
         <section>
-          <div class="container mb-5 pb-5">
+          <div id="login" class="container mb-5 pb-5">
             <h1 class="fs-1 fw-bold text-center">Login <span class="orange">Here</span></h1>
             <div class="row">
               <div class="col-2"></div>
@@ -326,7 +326,7 @@
                     <label for="exampleInputPassword1" class="form-label">Password</label>
                     <input type="password" class="form-control py-2" id="exampleInputPassword1">
                   </div>
-                  <div class="mb-3 form-check d-flex justify-content-between">
+                  <div class="mb-3 form-check d-flex justify-content-between align-items-center">
                     <div>
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Remember Me</label>
